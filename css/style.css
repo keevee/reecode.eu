@@ -1,0 +1,101 @@
+/* $Revision: 1.2 $
+� 2012 by mARS agardtha
+*/
+
+body {			
+			margin: 0;
+			background-color: #000000;
+            color: #f5f5f5;
+}
+
+/* Mouseover */
+a:hover {
+			color:#990000;
+}
+
+/* link */
+a {
+			font-family:Lucida Console,Verdana,Arial; 
+			font-size:11px; 
+			color:#284C72; 
+			text-decoration:none;
+}
+
+
+/* Inputfeld */
+input {	
+			font-family:Lucida Console,Verdana,Arial,Helvetica;
+            font-size:11px;		
+            color:#000000;
+}
+
+.reesponse {
+			font-family:Helvetica;
+            font-size:16px;
+			line-height:14px;
+			font-weight:bold;		
+            color: #284C72;
+}
+  
+
+/* Text normal */
+.textwhite {
+             font-family:Lucida Console,Verdana,Arial; 
+             line-height:12px;
+             font-size:11px; 
+             color:#FFFFFF; 
+             text-decoration:none;
+}
+
+
+/* Text normal */
+.textblack{
+             font-family:Lucida Console,Verdana,Arial; 
+             font-size:11px; 
+             color:#000000; 
+             text-decoration:none;
+}
+
+/* Text normal */
+.textwhiteblue {
+             font-family:Lucida Console,Verdana,Arial; 
+             font-size:11px; 
+             color:#ffffff;
+             background-color:#284C72; 
+             text-decoration:none;
+}
+
+/* Text normal */
+.textwhiteblack {
+             font-family:Lucida Console,Verdana,Arial; 
+             font-size:11px; 
+             color:#ffffff;
+             background-color:#000000; 
+             text-decoration:none;
+}
+
+/* Text sehr klein */
+.warning {
+             font-family:Helvetica,sans-serif; 
+             font-size:9px; 
+             color:#000000; 
+             text-decoration:none;
+}
+
+.warningwhite {
+             font-family:Helvetica,sans-serif; 
+             font-size:9px; 
+             color:#ffffff; 
+             text-decoration:none;
+             
+}
+
+.warninggrey {
+             font-family:Helvetica,sans-serif; 
+             font-size:9px; 
+             color:#47595b; 
+             text-decoration:none;
+             
+}
+
+                           
