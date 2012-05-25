@@ -1,0 +1,3 @@
+[submodule "mecode"]
+	path = mecode
+	url = git@github.com:keevee/mecode-php.git
