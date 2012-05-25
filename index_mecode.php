@@ -64,7 +64,7 @@
                                         </tr>
                                         <tr id="products">
                                             <td>
-                                                <? meproducts($products) ?>
+                                                <? meproducts(array(1)) ?>
                                             </td>
                                         </tr>
                                     </table>
