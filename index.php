@@ -1,4 +1,4 @@
-<?php include("mecode/mecode.php"); ?>
+<?php include("mecode/kv-code.php"); ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -89,13 +89,13 @@
         <tr><td align="left">
           <table cellpadding="0" cellspacing="0" border="0">
             <tr><td>
-                <? mecode(); ?>
+                <? KV_code(); ?>
             </td>
             </tr>
             <tr><td colspan="2" height="1160"></td>
             </tr>
             <tr><td>
-                <? meproduct(2); ?>
+                <? KV_product(2); ?>
             </td>
             </tr>
             <tr><td height="5200" valign="bottom" class="warninggrey">© public reelation force <br /><br /></td>
