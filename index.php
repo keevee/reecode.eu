@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>reecode your life!</title>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
-  <? meheader(); ?>
+  <? KV_header(); ?>
 </head>
 
 <body>
