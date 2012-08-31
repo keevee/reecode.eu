@@ -30,22 +30,29 @@ jQuery(function($) {
       scrollElement = this.nodeName.toLowerCase();
       $(this).attr('scrollTop', initScrollTop);
       return false;
-    }    
+    }
   });
   
+  $("a[name]")
+  .waypoint()
+  .bind('waypoint.reached', function(e){ window.location.hash = '#'+e.target.name })
+  
+
   // Smooth scrolling for internal links
-  $("a[href^='#']").click(function(event) {
+  $("a[href^='#']")
+  .click(function(event) {
     event.preventDefault();
     
-    var $this = $(this),
-    target = this.hash,
-    $target = $(target);
+    var hash = this.hash;
+    var $target = $('a[name='+hash.substr(1)+']').first();
     
     $(scrollElement).stop().animate({
-      'scrollTop': $target.offset().top
+      'scrollTop': $target.offset().top - 30
     }, 500, 'swing', function() {
-      window.location.hash = target;
+      window.location.hash = hash;
     });
     
   });
+
+	initRolloverImgs();
 });
